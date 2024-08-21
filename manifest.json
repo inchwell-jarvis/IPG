@@ -2,8 +2,8 @@
     "name" : "IPG打卡",
     "appid" : "__UNI__186CB50",
     "description" : "",
-    "versionName" : "1.01.01",
-    "versionCode" : 101010,
+    "versionName" : "1.01.02",
+    "versionCode" : 101020,
     "transformPx" : false,
     /* 5+App特有相关 */
     "app-plus" : {
@@ -68,13 +68,15 @@
                     "amap" : {
                         "__platform__" : [ "ios", "android" ],
                         "appkey_ios" : "9f5cf598e999f190636f8839dd69d3a7",
-                        "appkey_android" : "ec4c91b9a43b340f87d16fe4436210a1"
+                        "appkey_android" : "ec4c91b9a43b340f87d16fe4436210a1",
+                        "name" : "amap_18310614275Ac5KuS4UV"
                     }
                 },
                 "maps" : {
                     "amap" : {
                         "appkey_ios" : "9f5cf598e999f190636f8839dd69d3a7",
-                        "appkey_android" : "ec4c91b9a43b340f87d16fe4436210a1"
+                        "appkey_android" : "ec4c91b9a43b340f87d16fe4436210a1",
+                        "name" : "amap_18310614275Ac5KuS4UV"
                     }
                 },
                 "ad" : {}

@@ -1,6 +1,11 @@
 import Vue from 'vue'
 import App from './App'
 
+
+import utils from './utils.js' // 封装function 方法
+Vue.use(utils) // 添加
+
+
 import uView from "uview-ui";
 Vue.use(uView);
 
@@ -32,7 +37,7 @@ Vue.config.productionTip = false
 
 
 const app = new Vue({
-    ...App
+	...App
 	// store
 })
 app.$mount()
